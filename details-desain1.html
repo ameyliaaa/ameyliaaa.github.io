@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="resume-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -51,7 +51,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html" class="active">Resume</a></li>
+          <li><a href="resume.html">Resume</a></li>
           <!-- <li><a href="services.html">Services</a></li> -->
           <li><a href="portfolio.html">Portfolio</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -86,117 +86,90 @@
 
   <main class="main">
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Berikut merupakan latar belakang diri saya.</p>
+        <h2>Portfolio Details</h2>
+        <p>Berikut penjelasan detail mengenai projek saya</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-            <!-- <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div> -->
-            <!-- Edn Resume Item -->
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Teknologi Informasi</h4>
-              <h5>2021 - 2024 (2th, 10bl, 10hr)</h5>
-              <p><em>Universitas Brawijaya</em></p>
-              <p>Prodi Teknologi Informasi dengan bidang minat Sistem Informasi.</p>
-              <ul>
-                <li>IPK 3,84</li>
-                <li>Sertifikasi BNSP sebagai junior web developer</li>
-                <li>Sertifikasi Microsoft Office</li>
-                <li>Mempelajari rancang bangun sistem informasi dengan Laravel</li>
-                <li>Mempelajari Frontend dengan Js, HTML, CSS, Bootstrap</li>
-                <li>Mempelajari desain UI/UX</li>
-                <li>Mempelajari teknik penulisna dokumentasi sistem informasi (merancang kebutuhan sistem : userflow, use case scenario, ERD, activity diagram, dll)</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+              <div class="swiper-wrapper align-items-center">
 
-            <div class="resume-item">
-              <h4>Teknik Komputer dan Jaringan</h4>
-              <h5>2018 - 2021</h5>
-              <p><em>SMK Telkom Malang</em></p>
-              <ul>
-                <li>Rata-rata nilai 88,83</li>
-                <li>Sertifikasi kompetensi Teknik Komputer dan Jaringan</li>
-                <li>Sertifikasi Microsoft Technology Associate</li>
-                <li>Ikut serta kelas Teaching Factory bersama Jagoan Hosting (PT BEON Intermedia)</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ass1.png" alt="">
+                </div>
 
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ass2.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ass3.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Frontend Developer</h4>
-              <h5>August 2023 - Jan 2024</h5>
-              <p><em>Dinas Pariwisata Trenggalek x Fakultas Vokasi UB</em></p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
               <ul>
-                <li>UI Design Website Nakula Sadewa</li>
-                <li>Frontend Developer Website Nakula Sadewa menggunakan bootstrap</li>
-                <li>Desain poster produk dan poster dokumentasi Nakula Sadewa</li>
+                <li><strong>Category</strong>: Design</li>
+                <li><strong>Project date</strong>: May 2023</li>
+                <li><strong>Project URL</strong>: <a href="https://drive.google.com/drive/folders/1X75qPzvvv39eRWBd2HglfV66NAumQkgu?usp=sharing">nDokumentasi Desain</a></li>
               </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Content Creator & Technical Writer</h4>
-              <h5>Feb 2023 - Jun 2023</h5>
-              <p><em>PT Bisa Artifisial Indonesia</em></p>
-              <ul>
-                <li>program MSIB Kampus Merdeka batch 4</li>
-                <li>menjadi best employee of the month</li>
-                <li>Desain konten sosmed Bisa Design Academy & Kreator Academy</li>
-                <li>Admin sosmed</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Desain Assets</h2>
+              <p>
+                Desain assets ini digunakan untuk melengkapi icon icon pada saat redesain website Bisa Ai Academy dan redesain website Bisa Design Academy. Projek ini merupakan projek ril industri ketika melakukan magang MSIB Batch 4 di PT Bisa Artifisial Indonesia. Tim UI/UX Designer dan Frontend Developer yang membutuhkan assets-assets untuk tampilan web mereka nantinya akan diarahkan ke saya.</p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
-
+  
   <footer id="footer" class="footer light-background">
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Ameylia</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <a href="https://www.instagram.com/hey.meydwe/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ameylia-dwi-0646a31b2/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
 
