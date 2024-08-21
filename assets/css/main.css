@@ -764,7 +764,7 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 100px;
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
@@ -773,8 +773,7 @@ section,
 
 .content .btn-get-started:hover {
   background: color-mix(in srgb, var(--accent-color) 80%, white 20%);
-  transform: scale(20%); 
-  transition: transform 0.3s ease-in-out; 
+
 }
 
 @media (max-width: 768px) {
