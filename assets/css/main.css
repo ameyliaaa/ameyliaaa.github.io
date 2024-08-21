@@ -753,7 +753,19 @@ section,
   transition: transform 0.3s ease-in-out; 
 }
 
+.about .img-fluid{
+  height: 450px;
+}
+
+.content .tombol{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .content .row .btn-get-started {
+
   color: var(--contrast-color);
   background: var(--accent-color);
   font-family: var(--heading-font);
@@ -764,7 +776,7 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 200px;
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
