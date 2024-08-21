@@ -748,7 +748,30 @@ section,
 }
 
 .hero .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color) 90%, white 20%);
+  background: color-mix(in srgb, var(--accent-color) 80%, white 20%);
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.content .row .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+
+.content .row .btn-get-started:hover {
+  background: color-mix(in srgb, var(--accent-color) 80%, white 20%);
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out; 
 }
 
 @media (max-width: 768px) {
