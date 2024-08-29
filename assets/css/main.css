@@ -757,11 +757,39 @@ section,
   height: 450px;
 }
 
-.content .tombol{
-  margin-top: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content .tom {
+  display: contents;
+}
+.content .tom .tombol{
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  width: 270px;
+  text-align: center;
+  float: left;
+}
+
+.content .tom .tombol-port{
+  float: right;
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  width: 270px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
 }
 
 .content .row .btn-get-started {
